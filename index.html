@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gapzz愛</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/output.css">
+  <style>
+    .animated-bg {
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+  <style>
+    .animated-bg {
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+  
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  
+    /* Animasi gerak mengambang */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+      100% { transform: translateY(0); }
+    }
+  
+    .float-anim {
+      animation: float 3s ease-in-out infinite;
+    }
+  </style>
+  
+</head>
+<body class="bg-[url('/img/foto4.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center">
+
+  <div class="w-full max-w-md mx-auto text-center p-6">
+    <!-- Profile Picture -->
+    <img src="img/foto3.png" alt="Profile" class="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg object-cover">
+
+    <!-- Name & Tagline -->
+    <h1 class="text-2xl font-bold text-blue-600">Gapzz愛</h1>
+    <p class="italic text-gray-600 mb-6">'This is just my joke'</p>
+
+    <!-- Link Buttons -->
+    <div class="space-y-4 text-center">
+
+      <!-- Tombol Website-Portfolio dengan Logo -->
+      <a href="https://gilangpramnnaa.github.io/tailwindcss-branding/" class="flex items-center justify-center gap-2 bg-[#4a1c0f] text-white py-3 rounded-xl font-semibold hover:bg-[#361308] transition mx-auto w-3/4 transform hover:-translate-y-1 hover:scale-105 duration-300 float-anim">
+        <img src="img/foto2.jpg" alt="Logo" class="w-10 h-6 rounded-full object-cover border border-white shadow-sm">
+        Website-Portfolio
+      </a>
+
+      <!-- Tombol-tombol lainnya tanpa ikon -->
+      <a href="https://github.com/gilangpramnnaa" class="block bg-gray-800 text-white py-3 rounded-xl hover:bg-gray-900 transition font-semibold mx-auto w-3/4 transform hover:-translate-y-1 hover:scale-105 duration-300 float-anim">
+        My GitHub
+      </a>
+
+      <a href="https://discord.gg/qZ5q8TPY" class="block bg-indigo-500 text-white py-3 rounded-xl hover:bg-indigo-600 transition font-semibold mx-auto w-3/4 transform hover:-translate-y-1 hover:scale-105 duration-300 float-anim">
+        My Discord
+      </a>
+
+      <a href="https://www.facebook.com/share/17xL43JPPY/?mibextid=wwXIfr" class="block bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition font-semibold mx-auto w-3/4 transform hover:-translate-y-1 hover:scale-105 duration-300 float-anim">
+        My Facebook
+      </a>
+
+      <a href="https://instagram.com/gilangpramnaaa" class="block bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white py-3 rounded-xl hover:opacity-90 transition font-semibold mx-auto w-3/4 transform hover:-translate-y-1 hover:scale-105 duration-300 float-anim">
+        My Instagram
+      </a>
+
+    </div>
+
+    <!-- Footer -->
+    <p class="text-sm text-gray-500 mt-10 italic">My Page | Thankyou For Visit</p>
+  </div>
+</body>
+</html>
